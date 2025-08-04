@@ -1,4 +1,4 @@
-NAME			= Bureaucrat
+NAME					=	Scalar
 #BONUS_NAME 	= _bonus
 
 CXX				= c++
@@ -9,7 +9,7 @@ OBJ_DIR         = src_o
 SRC_BONUS_DIR   = src_bonus
 OBJ_BONUS_DIR   = src_bonus_o
 
-SRC				= ./main.cpp ./Bureaucrat.cpp
+SRC				= ./main.cpp
 OBJ 			= $(patsubst $(SRC_DIR)/%.cpp, $(OBJ_DIR)/%.o, $(SRC))
 
 #SRC_BONUS   = $(wildcard $(SRC_BONUS_DIR)/*.cpp)
