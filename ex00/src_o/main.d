@@ -1,1 +1,1 @@
-src_o/main.o: main.cpp
+src_o/main.o: main.cpp ScalarConverter.hpp

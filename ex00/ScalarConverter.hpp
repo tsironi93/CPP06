@@ -4,7 +4,7 @@
 
 class ScalarConverter {
 private:
-  ScalarConverter();
+  ScalarConverter() = delete;
   ScalarConverter(const std::string l) = delete;
   ~ScalarConverter();
   ScalarConverter(const ScalarConverter &other) = delete;
